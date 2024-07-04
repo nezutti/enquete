@@ -18,6 +18,14 @@ p{
  
 }
 
+img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
 
 
 .start{
@@ -80,6 +88,8 @@ p{
   display:flex;
   justify-content:space-between;
   align-items:center;
+ margin:0 auto;
+  width:90%;
 }
 
 .img1{
@@ -87,14 +97,21 @@ p{
   margin:0 auto;
 }
 
-img{
+.arrow{
+  display:flex;
+  justify-content:space-between;
+  width:90%;
+  margin: 0 auto;
+}
+
+.question{
+  margin:40px 0px;
   width:100%;
 }
 
-h2{
-  text-align:center;
+.next-btn{
+  text-align:right;
+  margin-top:20px;
+  
 }
-
-
-
 

@@ -22,6 +22,7 @@ img {
   width: 100%;
 }
 
+
 h2 {
   text-align: center;
 }
@@ -112,6 +113,7 @@ h2 {
 .next-btn{
   text-align:right;
   margin-top:20px;
+  margin-right:5%;
   
 }
 

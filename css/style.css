@@ -7,6 +7,7 @@ body{
 
 a{
   border: solid 1px #000000;
+  color:black;
   text-decoration: none;
   padding: 3px 7px;
 }
@@ -14,17 +15,18 @@ a{
 
 p{
   text-align:center;
-  border: solid 1px #000000;
+ 
  
 }
 
 img {
-  width: 100%;
+  width:100%;
 }
 
 
-h2 {
+.about-image {
   text-align: center;
+  font-size:24px;
 }
 
 
@@ -51,12 +53,12 @@ h2 {
 
 .end{
   font-size:32px;
-  margin-top:100px;
-  margin-bottom:150px;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
 .end-command{
-  margin:50px auto;
+  margin:20px auto;
   text-align: center;
 }
 
@@ -68,20 +70,20 @@ h2 {
 
 .end-word{
   margin-top:100px;
-  font-size:18px;
+  font-size:24px;
   
 }
 
 .goodjob{
-  margin-top:180px;
-  font-size:24px;
+  margin-top:50px;
+  font-size:32px;
 }
 
 .forget{
-  margin-top:1000px;
+  margin-top:1500px;
   margin-bottom:300px;
   color:red;
-  font-size:32px;
+  font-size:38px;
 }
 
 .radio-button{
@@ -89,10 +91,13 @@ h2 {
   display:flex;
   justify-content:space-between;
   align-items:center;
- margin:0 auto;
+  margin:0 auto;
   width:90%;
 }
 
+input[type="radio"]{
+  accent-color:red;
+}
 .img1{
   width:70%;
   margin:0 auto;
@@ -106,8 +111,15 @@ h2 {
 }
 
 .question{
-  margin:40px 0px;
+  margin-top:8px;
+  margin-bottom:8px;
+  border: solid 1px #000000;
   width:100%;
+  
+}
+
+.question p{
+  margin-top:0px;
 }
 
 .next-btn{

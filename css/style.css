@@ -123,9 +123,18 @@ input[type="radio"]{
 }
 
 .next-btn{
+  
+ 
   text-align:right;
   margin-top:8px;
   margin-right:5%;
   
+}
+
+.move-btn{
+  display:flex;
+  margin:0 auto;
+  justify-content:space-between;
+  width:90%;
 }
 

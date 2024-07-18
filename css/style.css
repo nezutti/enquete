@@ -12,10 +12,12 @@ label{
 
 
 a{
-  border: solid 1px #000000;
+border: solid 1px #000000;
   text-decoration: none;
-  color:black;
- padding: 3px 7px;
+  color: black;
+  padding: 3px 7px;
+  
+
 }
 
 
@@ -132,7 +134,7 @@ input[type="radio"]{
   
  
   text-align:right;
-  margin-top:8px;
+  margin-top: 8px;
   margin-right:5%;
   
 }
@@ -148,4 +150,38 @@ input[type="radio"]{
   display:block;
   width:50%;
   margin:0 0 0 auto;
+}
+
+.loadButton{
+    background-color: #54C527;
+      color: #fff;
+      width:80px;
+      height:24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.5s ease-in-out; 
+    }
+    
+  
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.load{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 0.25rem solid rgba(255, 255, 255, 0.2);
+  border-top-color: rgb(255, 255, 255);
+  animation: spin 1s infinite linear;
 }

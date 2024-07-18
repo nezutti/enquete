@@ -144,3 +144,8 @@ input[type="radio"]{
   width:90%;
 }
 
+.numberGraph img{
+  display:block;
+  width:50%;
+  margin:0 0 0 auto;
+}

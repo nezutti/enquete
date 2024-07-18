@@ -146,15 +146,27 @@ input[type="radio"]{
   width:90%;
 }
 
+.Graph{
+  width:90%;
+  margin:0 auto;
+}
+
+.numberGraph{
+  width:90%;
+  margin:0 auto;
+ 
+
+}
+
 .numberGraph img{
   display:block;
-  width:50%;
+  width:40%;
   margin:0 0 0 auto;
 }
 
 .loadButton{
-    background-color: #54C527;
-      color: #fff;
+      background-color:white;
+      color:black;
       width:80px;
       height:24px;
       display: flex;
@@ -181,7 +193,7 @@ input[type="radio"]{
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 0.25rem solid rgba(255, 255, 255, 0.2);
-  border-top-color: rgb(255, 255, 255);
+  border: 0.25rem solid rgba(0,0,0,0.2);
+  border-top-color: rgba(0,0,0,0.7);
   animation: spin 1s infinite linear;
 }

@@ -63,24 +63,26 @@ img {
   font-size:32px;
   margin-top:50px;
   margin-bottom:50px;
-}
+  text-align:center; /*追加しました */
+}  /*end-command等のCSSは消しました */
 
-.end-command{
-  margin:20px auto;
+.end-command {
+  margin: 20px auto;
   text-align: center;
 }
 
-.end-command2{
+.end-command2 {
   margin: 0 auto;
   text-align: center;
 }
 
 
-.end-word{
-  margin-top:100px;
-  font-size:24px;
-  
+.end-word {
+  margin-top: 100px;
+ 
+
 }
+
 
 .goodjob{
   margin-top:50px;
@@ -91,7 +93,7 @@ img {
   margin-top:1500px;
   margin-bottom:300px;
   color:red;
-  font-size:38px;
+  font-size:48px;
 }
 
 .radio-button{
@@ -105,6 +107,7 @@ img {
 
 input[type="radio"]{
   accent-color:red;
+  transform: scale(2.5)
 }
 .img1{
   width:70%;
@@ -115,7 +118,7 @@ input[type="radio"]{
   display:flex;
   justify-content:space-between;
   width:90%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .question{
@@ -132,16 +135,17 @@ input[type="radio"]{
 
 .next-btn{
   
- 
+  display:flex;
+  justify-content: end;
   text-align:right;
-  margin-top: 8px;
+  margin-top: 16px;
   margin-right:5%;
   
 }
 
 .move-btn{
   display:flex;
-  margin:0 auto;
+  margin:16px auto;
   justify-content:space-between;
   width:90%;
 }
@@ -196,4 +200,33 @@ input[type="radio"]{
   border: 0.25rem solid rgba(0,0,0,0.2);
   border-top-color: rgba(0,0,0,0.7);
   animation: spin 1s infinite linear;
+}
+
+.end span {
+  
+  opacity: 0;
+  transition: 0.5s;
+ color:black;
+}
+
+.end span:nth-child(n+23){
+  opacity: 0;
+  transition: 0.5s;
+ color: red;
+ font-size:70px;
+}
+
+/*練習の記述* タブレット幅以上の時*/
+
+@media screen and (min-width : 769px){
+  .start{
+    font-size:80px;
+  }
+
+    .start-btn {
+      border: solid 1px #000000;
+      text-decoration: none;
+      padding: 3px 7px;
+      font-size:30px;
+    }
 }
